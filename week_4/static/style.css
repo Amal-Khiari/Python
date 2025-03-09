@@ -1,0 +1,13 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+a {
+    padding: 9px 13px;
+    border-radius: 6px;
+    border: 0.8px solid rgba(0,0, 0, 0.5);
+    color: black;
+    text-decoration: none;
+}
