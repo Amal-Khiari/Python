@@ -4,8 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Visit Counter</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
     <h1>You have visited this site {{ visits }} times.</h1>
+    <h2>Counter: {{ counter }}</h2>
+    <form action="{{ url_for('increment') }}" method="post">
+        <input type="number" name="increment" value="1" min="1">
+        <button type="submit">Increment</button>
+    </form>
+    <form action="{{ url_for('reset') }}" method="post">
+        <button type="submit">Reset Counter</button>
+    </form>
+    <form action="{{ url_for('destroy_session') }}" method="post">
+        <button type="submit">Destroy Session</button>
+    </form>
 </body>
 </html>
