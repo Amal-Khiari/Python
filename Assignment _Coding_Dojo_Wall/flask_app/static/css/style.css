@@ -1,0 +1,17 @@
+error {
+    color: red;
+}
+btn a {
+    color: white;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    align-items: center;
+    color: rgb(97, 97, 97);
+}
+.d-flex {
+    justify-content: space-between;
+}
