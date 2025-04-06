@@ -1,0 +1,28 @@
+body {
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+.survey-form, .results {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #343a40;
+    text-align: center;
+}
+
+.card {
+    margin-top: 20px;
+    border: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.btn {
+    margin-top: 10px;
+}
